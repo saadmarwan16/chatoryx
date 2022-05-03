@@ -3,11 +3,21 @@ import Meta from '../components/shared/Meta'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Meta title='Home' />
 
-      <h1>Hello, world</h1>
-    </div>
+      <div
+        style={{
+          width: "100vw",
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <h1>CHATORYX IS COMING SOON</h1>
+      </div>
+    </>
   )
 }
 
