@@ -1,0 +1,86 @@
+:root {
+  --my-message-background: #bbdefb;
+  --blue-text-color: #2196f3;
+  --button-color: #1e88e5;
+  --button-hover-color: #1565c0;
+  --border-radius: 8px;
+}
+
+.ce-chat-card {
+  margin: 0px 6px !important;
+}
+
+.ce-primary-button {
+  background-color: var(--button-color) !important;
+  border-radius: var(--border-radius) !important;
+  opacity: 1 !important;
+}
+
+.ce-primary-button:hover {
+  background-color: var(--button-hover-color) !important;
+}
+
+.ce-avatar {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.ce-avatar-text {
+  padding-top: 8px !important
+}
+
+.ce-my-message-bubble-row {
+  padding-right: 32px !important;
+}
+
+.ce-message-row {
+  padding: 0 16px !important;
+}
+
+.ce-message-bubble {
+  border-radius: var(--border-radius) !important;
+  padding: 8px 16px !important;
+}
+
+.ce-my-message-bubble {
+  background-color: #e3f2fd !important;
+}
+
+.ce_message {
+  color: black !important;
+}
+
+.ce-my-message-attachments-container {
+  right: 32px;
+  position: relative;
+}
+
+.ce-my-message-timestamp {
+  color: var(--blue-text-color) !important;
+}
+
+#ce-send-message-button {
+  background-color: var(--blue-text-color) !important;
+}
+
+#ce-send-message-button:hover {
+  background-color: var(--button-hover-color) !important;
+}
+
+.ce-chat-title-container > .ce-chat-title-text {
+  color: var(--blue-text-color);
+}
+
+.ce-chat-title-container > .ce-chat-subtitle-text {
+  color: var(--blue-text-color);
+}
+
+.anticon-paper-clip {
+  color: var(--blue-text-color) !important;
+  bottom: 24px !important;
+  z-index: 100 !important;
+}
+.anticon-paper-clip:hover {
+  color: var(--button-hover-color) !important;
+  opacity: 1 !important;
+}

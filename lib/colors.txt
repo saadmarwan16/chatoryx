@@ -1,5 +1,0 @@
-blue jeans = #42A5FF
-turquoise = #6DDDD0
-seashell = #FBF3EE
-pale pink = #FFD4D4
-white = #FFFFFF
